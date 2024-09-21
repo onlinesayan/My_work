@@ -1,0 +1,15 @@
+Title : Cross Site Scripting
+Domain : vulnweb.com
+Subdomain : testasp.vulnweb.com
+Steps to reproduce : 
+Step 1 : Visit to http://testasp.vulnweb.com/
+Step 2 : On top menu I'll find a search option
+Step 3 : I am try to find successful payload for xss
+Step 4 : I searched <script>alert(1)</script> this
+Step 5 : output comes 1 , so that is vulnerable 
+
+Impact : Cross Site Scripting can lead to stealing of your user data and it can be harmful for your website as well as company.
+Mitigation :  If you want to prevent your website to be vulnerable of Cross Site Scripting then you can enable no script on browser. 
+
+POC including screenshot and screen recording is included in the report which is attached in my drive link and GitHub repository.
+
